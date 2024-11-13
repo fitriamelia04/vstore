@@ -20,7 +20,7 @@ if($jumlah_data > 0){
         $_SESSION["role"] = $data["role"];
 
         if(($data['role'] =="admin")){
-            header("Location: halamanadmin.php");
+            header("Location:admin/halamanadmin.php");
         }
         if($data['role'] =="customer"){
             header("Location: index.php");
